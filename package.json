@@ -1,0 +1,26 @@
+{
+  "name": "movieql",
+  "version": "1.0.0",
+  "description": "learn GraphQL with nomad coder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taeheonkim1154/movieql.git"
+  },
+  "author": "taeheon kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taeheonkim1154/movieql/issues"
+  },
+  "homepage": "https://github.com/taeheonkim1154/movieql#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "graphql-yoga": "^1.18.3"
+  }
+}
